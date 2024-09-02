@@ -3,7 +3,7 @@ import random
 randomInteger=random.randint(0,2)
 userInput=int(input("What do you choose ? Type 0 for Rock,1 for Paper or 2 for Scissors\n"))
 if(userInput!=0 and userInput!=1 and userInput!=2):
-    print("Wrong choise")
+    print("Wrong choice")
     exit()
 
 if(userInput==randomInteger):
